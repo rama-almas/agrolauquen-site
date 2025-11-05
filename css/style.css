@@ -1,67 +1,57 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
+    background: #f8f8f8;
     color: #333;
 }
 header {
-    background: #2e7d32;
+    text-align: center;
+    background-color: #2e7d32;
     color: white;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    padding: 20px;
 }
-.logo {
-    height: 60px;
+header img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
 }
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
+nav {
+    background-color: #388e3c;
+    text-align: center;
+    padding: 10px;
 }
-nav ul li a {
+nav a {
     color: white;
+    margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
 }
 section {
     padding: 20px;
-    background: white;
-    margin: 10px;
-    border-radius: 8px;
 }
 .gallery {
     display: flex;
-    flex-wrap: wrap;
     gap: 10px;
-    margin-top: 10px;
+    flex-wrap: wrap;
 }
 .gallery img {
     width: 30%;
+    height: auto;
     border-radius: 5px;
 }
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-form input, form textarea {
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-form button {
-    background: #2e7d32;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
 footer {
+    background-color: #2e7d32;
+    color: white;
     text-align: center;
-    padding: 10px;
-    background: #ddd;
+    padding: 20px;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+footer ul li {
+    display: inline;
+    margin: 0 10px;
 }
